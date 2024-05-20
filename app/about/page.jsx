@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Profile from "../../public/images/profile.jpg";
+
 import SocialMediaOptions from "../components/about/social_media.jsx";
 import AboutContent from "../components/about/about_content.jsx";
 
@@ -9,10 +12,11 @@ function About() {
   return (
     <section className="h-[90vh] grid gap-4 md:grid-cols-2">
       <div className="bg-yellow-10 mt-6 md:mt-0 flex flex-col gap-4 justify-center items-center">
-        <img
-          src="/images/2.jpg"
-          alt="Vitor Manoel"
+        <Image
+          src={Profile}
+          alt="Vitor's picture"
           className="rounded-full w-[250px] border-4 border-green-pastel"
+          priority
         />
 
         <SocialMediaOptions />
