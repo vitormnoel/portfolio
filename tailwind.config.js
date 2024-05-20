@@ -13,6 +13,9 @@ module.exports = {
         },
         slate: {
           git: "#24292e",
+        },
+        green: {
+          pastel: "#C1E1C1",
         }
       },
     },

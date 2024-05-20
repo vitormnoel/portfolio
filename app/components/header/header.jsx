@@ -9,7 +9,7 @@ function headerSection() {
         a Brazilian developer based in Barcelona, experienced in Full Stack
         Development using React, Next.js, and Flutter for web and mobile
       </p>
-      <Link href="/lets-talk" className="block md:invisible mt-8 underline underline-offset-4">let's talk</Link>
+      <Link href="/lets-talk" className="block md:invisible mt-8 underline underline-offset-4 hover:bg-slate-100 px-3 duration-300">/let's talk</Link>
     </header>
   );
 }

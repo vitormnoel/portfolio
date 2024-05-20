@@ -16,7 +16,7 @@ function navBar() {
           </ul>
         </nav>
 
-        <Link href="/lets-talk" className="underline underline-offset-4">let's talk</Link>
+        <Link href="/lets-talk" className="underline underline-offset-4 hover:bg-slate-100 px-3 duration-300">/let's talk</Link>
       </div>
     </div>
   );

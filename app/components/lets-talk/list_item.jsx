@@ -10,7 +10,7 @@ function listItem({ emoji, description, link, color, icon, title }) {
         target="_blank"
         className={`w-full font-semibold col-span-2 flex justify-center gap-2 items-center p-4 rounded col-start-3 hover:bg-slate-100 duration-300 ` + color}
       >
-        {icon ? icon : "🔗" }
+        {icon ? icon : `🔗 ${" "}` }
         {title ? title : "blank"}
       </a>
     </li>

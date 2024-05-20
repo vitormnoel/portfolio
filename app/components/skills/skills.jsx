@@ -7,9 +7,10 @@ import {
   RiNextjsFill,
   RiFlutterFill,
 } from "react-icons/ri";
-import { SiMysql, SiFirebase, SiAdobexd, SiCypress } from "react-icons/si";
+import { SiFirebase, SiAdobexd, SiCypress } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
 import { DiGithubAlt } from "react-icons/di";
+import { GrMysql } from "react-icons/gr";
 
 function skills() {
   return (
@@ -23,7 +24,7 @@ function skills() {
       <Item icon={<RiFlutterFill size="32" />} name="flutter" />
       <Item icon={<FaAngular size="32" />} name="angular" />
       <Item icon={<SiCypress size="32" />} name="cypress" />
-      <Item icon={<SiMysql size="32" />} name="mySQL" />
+      <Item icon={<GrMysql size="32" />} name="mySQL" />
       <Item icon={<SiFirebase size="32" />} name="firebase" />
       <Item icon={<FiFigma size="32" />} name="figma" />
       <Item icon={<SiAdobexd size="32" />} name="adobeXD" />

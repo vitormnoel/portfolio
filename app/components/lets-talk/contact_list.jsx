@@ -1,4 +1,3 @@
-import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import ListItem from "./list_item.jsx";
@@ -8,7 +7,7 @@ function contactList() {
     <ul className="mt-6 text-start">
       <li className="mt-6 flex justify-center border-2 border-slate-200 p-4 rounded">
         <span className="pr-2">📆</span>
-        <p className="half-bg-effect cursor-pointer duration-300">
+        <p className="bg-green-pastel px-2">
           Currently available for new opportunities
         </p>
       </li>
@@ -17,7 +16,7 @@ function contactList() {
         description="for questions"
         link="mailto: hi@vitormanoel.com ?subject=Hi, I have a question!"
         color="hover:text-slate-700 bg-slate-300"
-        icon={<MdOutlineAlternateEmail />}
+        
         title="hi@vitormanoel.com"
       />
       <ListItem
