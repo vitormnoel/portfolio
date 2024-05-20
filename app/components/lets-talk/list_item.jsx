@@ -1,7 +1,7 @@
 function listItem({ emoji, description, link, color, icon, title }) {
   return (
     <li className="mt-6 flex flex-col md:grid grid-cols-1 md:grid-cols-4 gap-2 items-center text-center md:text-start">
-      <p className="col-span-2 text-xl">
+      <p className="col-span-2 md:text-xl">
         <span className="pr-2">{emoji ? emoji : "🌌"}</span>
         {description ? description : "blank"}
       </p>

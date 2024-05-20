@@ -1,7 +1,7 @@
 import "./style/globals.css";
 
-import Footer from "./components/footer/footer";
-import NavBar from "./components/header/nav_bar";
+import Footer from "./components/footer/footer.jsx";
+import NavBar from "./components/header/navbar.jsx";
 
 export const metadata = {
   title: {

@@ -20,7 +20,7 @@ function About() {
       <div className="bg-yellow-10 flex flex-col justify-center items-center">
         <AboutContent />
         <a
-          href=""
+          href="https://drive.google.com/file/d/15Mfy5dPntlFNuxelUoPgdV25vLobFETZ/view?usp=sharing"
           target="_blank"
           className="mb-10 underline underline-offset-2 mt-4 hover:bg-slate-100 px-3 duration-300"
         >
