@@ -6,7 +6,7 @@ import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 
 function navBar() {
-  const [navbar, setNavbar] = useState(true);
+  const [navbar, setNavbar] = useState(false);
 
   function handleNavbar(e) {
     e.preventDefault();
@@ -43,11 +43,11 @@ function navBar() {
         >
           <CiMenuFries size={22} className="cursor-pointer" />
           {navbar ? (
-            <div className="bg-white  absolute left-0 right-0">
+            <div className="bg-white absolute left-0 right-0">
               <div className="flex flex-col items-center justify-center pt-16 gap-2 h-full">
                 <Link
                   href="/about"
-                  className="hover:bg-sky-100 w-full p-4"
+                  className="hover:bg-green-pastel w-full p-4"
                 >
                   about
                 </Link>
