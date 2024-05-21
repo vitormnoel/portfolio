@@ -43,7 +43,7 @@ function navBar() {
         >
           <CiMenuFries size={22} className="cursor-pointer" />
           {navbar ? (
-            <div className="fixed right-0 lef-0 bg-white w-full h-[95vh]">
+            <div className="overflow-hidden fixed top-18 right-0 top-18 lef-0 bg-white w-full h-[95vh]">
               <div className="flex flex-col justify-center items-center gap-2 h-full">
                 <Link
                   href="/about"

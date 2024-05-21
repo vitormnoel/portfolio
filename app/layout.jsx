@@ -19,9 +19,9 @@ export const metadata = {
 export default function rootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-Urbanist font-thin">
+      <body className="font-Urbanist font-thin overscroll-contain">
         <NavBar />
-        <main className="mx-auto px-8 lg:w-2/3">{children}</main>
+        <main className="container mx-auto px-8 lg:w-2/3] ">{children}</main>
         <Footer />
       </body>
     </html>

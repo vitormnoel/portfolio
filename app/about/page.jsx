@@ -10,7 +10,7 @@ export const metadata = {
 
 function About() {
   return (
-    <section className="h-[90vh] grid gap-4 md:grid-cols-2">
+    <section className="grid gap-10 md:grid-cols-2 md:h-[88vh]">
       <div className="bg-yellow-10 mt-6 md:mt-0 flex flex-col gap-4 justify-center items-center">
         <Image
           src={Profile}

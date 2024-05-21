@@ -3,7 +3,7 @@ function aboutContent() {
     <>
       <h2 className="text-start text-xl font-medium w-full">[about me]</h2>
       <article className="w-full">
-        <p className="pt-6">
+        <p className="pt-2">
           Over the past four years, I have gained extensive <span className="bg-yellow-100 px-1">experience with a
           diverse array of technologies</span>{" "}in my role as a developer. My
           self-motivation drives me to continually learn and improve, enabling
