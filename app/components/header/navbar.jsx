@@ -6,7 +6,7 @@ import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 
 function navBar() {
-  const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(true);
 
   function handleNavbar(e) {
     e.preventDefault();
@@ -43,7 +43,7 @@ function navBar() {
         >
           <CiMenuFries size={22} className="cursor-pointer" />
           {navbar ? (
-            <div className="overscroll-y-none overflow-y-hidden fixed right-0 lef-0 bg-white w-full h-screen">
+            <div className="overscroll-y-none overflow-y-hidden fixed right-0 lef-0 bg-white w-full">
               <div className="flex flex-col items-center pt-16 gap-2 h-full">
                 <Link
                   href="/about"
