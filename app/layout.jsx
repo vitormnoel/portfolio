@@ -9,9 +9,9 @@ export const metadata = {
     template: "%s | Vitor Manoel",
   },
   description:
-    "I`m Vitor Manoel, a Software Developer specialized in Web Development using React, Next.js, and Angular. Experienced with startups, multinationals, and small companies. Do you have an open position? Let`s talk!",
+    "I'm Vitor Manoel, a Software Developer specialized in Web Development using React, Next.js, and Angular. Experienced with startups, multinationals, and small companies. Do you have an open position? Let`s talk!",
   keywords:
-    "vitor manoel, software developer, web developer, react, next.js, vitormanoel, vitormnoel, vitor, vtormnoel",
+    "vitor manoel, software engineer, web developer, react, next.js, vitormanoel, vitormnoel, vitor, vtormnoel, manoel",
   icons:
     "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>",
 };
