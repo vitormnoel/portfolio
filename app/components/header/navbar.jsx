@@ -24,21 +24,30 @@ function navBar() {
 
         <nav className="text-base lowercase hidden md:block">
           <ul className="flex gap-12">
-            <Link href="/about" className="hover:text-green-dark duration-300">
-              about
-            </Link>
-            <Link
-              href="/projects"
-              className="hover:text-green-dark duration-300"
-            >
-              work
-            </Link>
-            <Link
-              href="/lets-talk"
-              className="underline underline-offset-4 hover:text-green-dark rounded duration-300 hidden md:block"
-            >
-              let's talk
-            </Link>
+            <li key={"about"}>
+              <Link
+                href="/about"
+                className="hover:text-green-dark duration-300"
+              >
+                about
+              </Link>
+            </li>
+            <li key={"projects"}>
+              <Link
+                href="/projects"
+                className="hover:text-green-dark duration-300"
+              >
+                work
+              </Link>
+            </li>
+            <li key={"lets-talk"}>
+              <Link
+                href="/lets-talk"
+                className="underline underline-offset-4 hover:text-green-dark rounded duration-300 hidden md:block"
+              >
+                let's talk
+              </Link>
+            </li>
           </ul>
         </nav>
 
