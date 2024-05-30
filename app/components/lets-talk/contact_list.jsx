@@ -15,7 +15,7 @@ function contactList() {
         emoji="📬"
         description="for questions"
         link="mailto: hi@vitormanoel.com ?subject=Hi, I have a question!"
-        color="hover:text-slate-700 bg-neutral-800"
+        color="hover:text-slate-700 bg-slate-300"
         
         title="hi@vitormanoel.com"
       />

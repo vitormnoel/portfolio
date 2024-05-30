@@ -25,8 +25,7 @@ function skills() {
         icon={
           <img
             width={"36"}
-            className="text-slate-300"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain.svg"
           />
         }
         name="cypress"

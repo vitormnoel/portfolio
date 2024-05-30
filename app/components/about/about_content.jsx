@@ -1,7 +1,7 @@
 function aboutContent() {
   return (
     <article className="w-full max-w-xl">
-      <h2 className="text-start text-xl font-medium text-slate-700 dark:text-green-dark">[about me]</h2>
+      <h2 className="text-start text-xl font-medium text-slate-700">[about me]</h2>
       <p className="pt-2">
         Over the past four years, I have gained extensive{" "}
         <span className="">
@@ -20,7 +20,7 @@ function aboutContent() {
       </p>
       <p className="pt-4">
         Currently, I am living in Spain, and{" "}
-        <span className="bg-yellow-100 px-1 dark:bg-green-pastel dark:text-slate-800">I am available for work.</span> If
+        <span className="bg-yellow-100 px-1">I am available for work.</span> If
         you have an open position or a project you would like to discuss, feel
         free to contact me.
       </p>
