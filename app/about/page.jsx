@@ -43,9 +43,9 @@ function About() {
       <IoIosArrowDown size={30} className="invisible md:visible absolute bottom-4 right-0 left-0 m-auto z-50 text-center hover:text-green-dark animate-bounce" />
 
       <section id="skills" className="flex items-center mb-28">
-        <div className="bg-slate-50 w-full py-8 rounded-xl">
+        <div className="bg-slate-50 dark:bg-neutral-800 w-full py-8 rounded-xl">
           <div className="md:w-1/2 m-auto">
-          <h2 className="text-start text-xl font-medium w-full ml-6 pb-6 text-slate-700">
+          <h2 className="text-start text-xl font-medium w-full ml-6 pb-6 text-slate-700 dark:text-green-dark">
               [skills]
             </h2>
             <Skills />

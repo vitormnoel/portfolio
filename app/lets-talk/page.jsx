@@ -8,7 +8,7 @@ function letsTalkPage() {
   return (
     <section className="h-[88vh] flex flex-col justify-center items-center">
       <div className="w-2/3">
-        <h2 className="text-start text-xl font-medium text-slate-700">[contact]</h2>
+        <h2 className="text-start text-xl font-medium text-slate-700 dark:text-green-dark">[contact]</h2>
         <Contact />
       </div>
     </section>
