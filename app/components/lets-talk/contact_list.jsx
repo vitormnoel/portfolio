@@ -5,9 +5,9 @@ import ListItem from "./list_item.jsx";
 function contactList() {
   return (
     <ul className="mt-6 text-center">
-      <li className="mt-6 flex justify-center border-2 flex-col md:flex-row border-slate-200 p-4 rounded">
+      <li className=" cursor-pointer mt-6 flex justify-center border-2 flex-col md:flex-row border-slate-200 hover:border-green-pastel p-4 rounded">
         <span className="pr-2">📆</span>
-        <p className="bg-green-pastel px-2">
+        <p className="px-2">
           Currently available for new opportunities
         </p>
       </li>

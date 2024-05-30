@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth !important;
 }
 
+:root {
+  --background: #f1f5f9;
+  --foreground: #f1f5f9;
+}
+
 .half-bg-effect-orange {
   @apply inline text-black/90;
   background: linear-gradient(
@@ -17,27 +22,5 @@ html {
     rgba(255, 255, 255, 0) 70%,
     rgba(255, 191, 14, 0.5) 70%,
     rgba(255, 127, 15, 0.5) 100%
-  );
-}
-
-.half-bg-effect-blue {
-  @apply inline text-black/90;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0) 70%,
-    rgba(14, 139, 255, 0.5) 70%,
-    rgba(14, 139, 255, 0.5) 100%
-  );
-}
-
-.half-bg-effect-green {
-  @apply inline text-black/90;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0) 70%,
-    rgba(71, 229, 68, 0.5) 70%,
-    rgba(71, 229, 68, 0.5) 100%
   );
 }

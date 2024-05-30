@@ -15,7 +15,8 @@ module.exports = {
           git: "#24292e",
         },
         green: {
-          pastel: "#C1E1C1",
+          pastel: "#C6E8C6",
+          dark: "#88B988"
         }
       },
     },

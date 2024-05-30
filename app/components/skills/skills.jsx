@@ -1,34 +1,135 @@
 import Item from "./item.jsx";
 
-import { FaHtml5, FaCss3, FaNodeJs, FaAngular } from "react-icons/fa";
-import {
-  RiTailwindCssFill,
-  RiJavascriptFill,
-  RiNextjsFill,
-  RiFlutterFill,
-} from "react-icons/ri";
-import { SiFirebase, SiAdobexd, SiCypress } from "react-icons/si";
-import { FiFigma } from "react-icons/fi";
-import { DiGithubAlt } from "react-icons/di";
-import { GrMysql } from "react-icons/gr";
-
 function skills() {
   return (
-    <ul className="w-2/3 grid grid-cols-3 md:grid-cols-5 gap-8 m-auto text-center">
-      <Item icon={<FaHtml5 size="32" />} name="HTML 5" />
-      <Item icon={<FaCss3 size="32" />} name="CSS 3" />
-      <Item icon={<RiTailwindCssFill size="32" />} name="tailwind CSS" />
-      <Item icon={<RiJavascriptFill size="32" />} name="javaScript" />
-      <Item icon={<RiNextjsFill size="32" />} name="next.js" />
-      <Item icon={<FaNodeJs size="32" />} name="node.js" />
-      <Item icon={<RiFlutterFill size="32" />} name="flutter" />
-      <Item icon={<FaAngular size="32" />} name="angular" />
-      <Item icon={<SiCypress size="32" />} name="cypress" />
-      <Item icon={<GrMysql size="32" />} name="mySQL" />
-      <Item icon={<SiFirebase size="32" />} name="firebase" />
-      <Item icon={<FiFigma size="32" />} name="figma" />
-      <Item icon={<SiAdobexd size="32" />} name="adobeXD" />
-      <Item icon={<DiGithubAlt size="32" />} name="github" />
+    <ul className="grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-12 m-auto text-center">
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+          />
+        }
+        name="javaScript"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+          />
+        }
+        name="next.js"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain.svg"
+          />
+        }
+        name="cypress"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+          />
+        }
+        name="node.js"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+          />
+        }
+        name="tailwind CSS"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-plain.svg"
+          />
+        }
+        name="flutter"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+          />
+        }
+        name="mySQL"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+          />
+        }
+        name="firebase"
+      />
+      <Item
+        icon={
+          <img
+            width={36}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+          />
+        }
+        name="MongoDB"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+          />
+        }
+        name="figma"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg"
+          />
+        }
+        name="adobeXD"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+          />
+        }
+        name="github"
+      />
+
+      <Item
+        icon={
+          <img
+            width={36}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+          />
+        }
+        name="Docker"
+      />
+      <Item
+        icon={
+          <img
+            width={"36"}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+          />
+        }
+        name="Azure"
+      />
     </ul>
   );
 }
