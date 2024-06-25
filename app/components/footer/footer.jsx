@@ -1,5 +1,3 @@
-import { metadata } from "../../layout";
-
 export const year = new Date().getFullYear();
 
 function Footer() {
@@ -7,7 +5,7 @@ function Footer() {
     <footer className="text-xs w-full py-2 bg-white">
       <div className="flex place-content-between mx-auto px-8 lg:w-2/3">
         <a href="mailto: hi@vitormanoel.com ?subject=Hi, can we chat?">
-          {metadata.title.default}
+          Vitor Manoel
         </a>
 
         <p>&copy; {year}</p>
