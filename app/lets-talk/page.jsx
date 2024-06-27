@@ -1,4 +1,4 @@
-import Contact from "../components/lets-talk/contact_list.jsx";
+import LetsTalkSection from "../components/lets-talk/lets_talk.jsx";
 
 export const metadata = {
   title: "Contact",
@@ -6,12 +6,7 @@ export const metadata = {
 
 function letsTalkPage() {
   return (
-    <section className="h-[88vh] flex flex-col justify-center items-center">
-      <div className="w-2/3">
-        <h2 className="text-start text-xl font-medium text-slate-700">[contact]</h2>
-        <Contact />
-      </div>
-    </section>
+    <LetsTalkSection/>
   );
 }
 

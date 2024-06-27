@@ -1,136 +1,16 @@
-import Item from "./item.jsx";
+import Title from "../ui/title.jsx";
+import Skills from "./skills_list.jsx";
 
 function skills() {
   return (
-    <ul className="grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-12 m-auto text-center">
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-          />
-        }
-        name="javaScript"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-          />
-        }
-        name="next.js"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain.svg"
-          />
-        }
-        name="cypress"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-          />
-        }
-        name="node.js"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-          />
-        }
-        name="tailwind CSS"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-plain.svg"
-          />
-        }
-        name="flutter"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-          />
-        }
-        name="mySQL"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
-          />
-        }
-        name="firebase"
-      />
-      <Item
-        icon={
-          <img
-            width={36}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-          />
-        }
-        name="MongoDB"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-          />
-        }
-        name="figma"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg"
-          />
-        }
-        name="adobeXD"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-          />
-        }
-        name="github"
-      />
-
-      <Item
-        icon={
-          <img
-            width={36}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
-          />
-        }
-        name="Docker"
-      />
-      <Item
-        icon={
-          <img
-            width={"36"}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
-          />
-        }
-        name="Azure"
-      />
-    </ul>
+    <section id="skills" className="flex items-center mb-28">
+      <div className="bg-slate-50 w-full py-8 rounded-xl dark:bg-neutral-700">
+        <div className="md:w-1/2 m-auto">
+          <Title txt="skills" style="w-full ml-6 pb-6"/>
+          <Skills/>
+        </div>
+      </div>
+    </section>
   );
 }
 

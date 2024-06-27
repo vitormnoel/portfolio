@@ -8,7 +8,7 @@ function listItem({ emoji, description, link, color, icon, title }) {
       <a
         href={link ? link : "/"}
         target="_blank"
-        className={`w-full font-semibold col-span-2 flex justify-center gap-2 items-center p-4 rounded col-start-3 hover:bg-slate-100 duration-300 ` + color}
+        className={`w-full font-semibold col-span-2 flex justify-center gap-2 items-center p-4 rounded col-start-3 text-slate-700 hover:bg-slate-100 duration-300 ` + color}
       >
         {icon ? icon : `🔗 ${" "}` }
         {title ? title : "blank"}

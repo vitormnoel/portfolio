@@ -32,7 +32,7 @@ export const metadata = {
 export default function rootLayout({ children }) {
   return (
     <html lang="en-US">
-      <body className="font-Urbanist font-light overscroll-contain">
+      <body className="font-Urbanist font-light overscroll-contain text-slate-600 dark:bg-neutral-800 dark:text-neutral-300">
         <NavBar />
         <main className="container mx-auto px-8 lg:w-2/3] ">{children}</main>
         <Footer />

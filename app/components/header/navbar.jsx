@@ -12,11 +12,11 @@ function navBar() {
     e.preventDefault();
     setTimeout(() => {
       setNavbar(!navbar);
-    }, 400);
+    }, 300);
   }
 
   return (
-    <div className="pt-8 pb-2 sticky top-0 right-0 lefet-0 z-10 w-full text-slate-700 bg-white drop-shadow-sm">
+    <div className="pt-8 pb-2 sticky top-0 right-0 lefet-0 z-10 w-full bg-white drop-shadow-sm dark:bg-neutral-800">
       <div className="flex place-content-between mx-auto px-8 lg:w-2/3">
         <h1 className="font-medium">
           <Link href="/">Vitor Manoel</Link>
@@ -57,23 +57,23 @@ function navBar() {
         >
           <CiMenuFries size={22} className="cursor-pointer" />
           {navbar ? (
-            <div className="bg-white absolute left-0 right-0">
+            <div className="bg-white absolute left-0 right-0 dark:bg-neutral-800 dark:text-slate-200">
               <div className="flex flex-col items-center justify-center pt-16 gap-2 h-full">
                 <Link
                   href="/about"
-                  className="hover:bg-green-pastel w-full p-4"
+                  className="hover:bg-green-dark w-full p-4"
                 >
                   about
                 </Link>
                 <Link
                   href="/projects"
-                  className="hover:bg-green-pastel w-full p-4"
+                  className="hover:bg-green-dark w-full p-4"
                 >
                   work
                 </Link>
                 <Link
                   href="/lets-talk"
-                  className="hover:bg-green-pastel w-full p-4"
+                  className="hover:bg-green-dark w-full p-4"
                 >
                   /let's talk
                 </Link>
