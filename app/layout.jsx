@@ -16,11 +16,11 @@ export const metadata = {
   icons:
     "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>",
   openGraph: {
-    images:  {
+    images: {
       url: "/images/og-image.png",
-      width: 1200,
-      height: 630,
-      alt: "Vitor Manoel's profile picture",
+      width: 400,
+      height: 400,
+      alt: "Laptop emoji",
     },
     locale: "en_US",
     type: "website",
