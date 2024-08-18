@@ -4,7 +4,7 @@ const location = "Barcelona"
 
 function headerSection() {
   return (
-    <header className="flex flex-col justify-center h-[88vh] items-center text-center">
+    <header className="flex flex-col justify-center h-[86vh] items-center text-center">
       <p className="text-8xl cursor-pointer">💻</p>
       <h2 className="capitalize text-4xl md:text-6xl pt-2 font-thin">Software Engineer</h2>
       <p className="md:w-1/2 pt-8 ">

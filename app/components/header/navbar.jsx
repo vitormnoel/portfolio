@@ -16,7 +16,7 @@ function navBar() {
   }
 
   return (
-    <div className="pt-8 pb-2 sticky top-0 right-0 lefet-0 z-10 w-full bg-white drop-shadow-sm dark:bg-neutral-800">
+    <div className="pt-8 pb-2 sticky top-0 right-0 left-0 z-10 w-full bg-white drop-shadow-sm dark:bg-neutral-800">
       <div className="flex place-content-between mx-auto px-8 lg:w-2/3">
         <h1 className="font-medium">
           <Link href="/">Vitor Manoel</Link>

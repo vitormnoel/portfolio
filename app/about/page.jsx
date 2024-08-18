@@ -14,7 +14,7 @@ function AboutPage() {
 
       <IoIosArrowDown
         size={30}
-        className="invisible md:visible absolute bottom-4 right-0 left-0 m-auto z-50 text-center hover:text-green-dark animate-bounce"
+        className="invisible md:visible absolute bottom-4 right-0 left-0 m-auto z-1 text-center hover:text-green-dark animate-bounce"
       />
 
       <SkillsSection />
