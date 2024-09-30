@@ -1,7 +1,7 @@
 import ProjectsSection from "../components/projects/projects.jsx";
 
 export const metadata = {
-  title: "Projects",
+  title: "Work",
 };
 
 function projectsPage() {
