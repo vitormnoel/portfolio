@@ -2,7 +2,7 @@ import Item from "./item.jsx";
 
 function skillList() {
   return (
-    <ul className="grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-12 m-auto text-center">
+    <ul className="grid grid-cols-3 md:grid-cols-4 gap-6 md:gap-10 pt-4 z-10">
       <Item
         icon={
           <img

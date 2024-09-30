@@ -2,8 +2,8 @@ export const year = new Date().getFullYear();
 
 function Footer() {
   return (
-    <footer className="text-xs w-full py-2 px-8 lg:w-2/3 text-end">
-      <p>&copy; {year}</p>
+    <footer className="lg:fixed bottom-2 right-0 left-0 text-xs py-2 w-full">
+      <p className="text-end px-8 container m-auto">&copy; {year}</p>
     </footer>
   );
 }

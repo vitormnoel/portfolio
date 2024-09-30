@@ -1,9 +1,7 @@
-import Title from "../ui/title";
 
 function projects() {
   return (
-    <section className="h-[86vh] text-center flex justify-center items-center">
-      {/* <Title txt="projects" /> */}
+    <section className="h-[95vh] flex justify-center items-center">
       <h1>no projects added yet</h1>
     </section>
   );

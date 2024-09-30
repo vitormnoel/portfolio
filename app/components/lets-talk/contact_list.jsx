@@ -4,8 +4,8 @@ import ListItem from "./list_item.jsx";
 
 function contactList() {
   return (
-    <ul className="mt-6 text-center">
-      <li className=" cursor-pointer mt-6 flex justify-center border-2 flex-col md:flex-row border-slate-200 hover:border-green-pastel p-4 rounded">
+    <ul className="text-center">
+      <li className="cursor-pointer mt-6 flex justify-center border-2 flex-col md:flex-row border-slate-200 hover:border-green-pastel p-4 rounded">
         <span className="pr-2">📆</span>
         <p className="px-2">
           Currently available for new opportunities

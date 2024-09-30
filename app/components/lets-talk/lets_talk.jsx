@@ -1,14 +1,11 @@
 import Title from "../ui/title.jsx";
 import Contact from "./contact_list.jsx";
 
-
 function letsTalk() {
   return (
-    <section className="h-[86vh] flex flex-col justify-center items-center">
-      <div className="w-2/3">
-        <Title txt="contact"/>
-        <Contact />
-      </div>
+    <section className="h-[95vh] p-8 flex flex-col justify-center m-auto lg:w-1/2 ">
+      <Title txt="contact" />
+      <Contact />
     </section>
   );
 }

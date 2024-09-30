@@ -1,38 +1,42 @@
-import Image from "next/image";
 
-import Profile from "../../../public/images/profile.jpg";
-
-import SocialMediaOptions from "./social_media.jsx";
-import AboutContent from "./about_content.jsx";
+import Skills from "../skills/skills.jsx";
+import SocialMedia from "./social_media.jsx";
+import About from "./about_content.jsx";
 
 function about() {
   return (
-    <section
+    <div
       id="about"
-      className="grid gap-10 md:grid-cols-2 mt-[10vh] md:mt-[0] md:h-[100vh]"
+      className="grid gap-10 lg:grid-cols-2 lg:h-[100vh] mt-[10vh] mb-[4vh] lg:m-auto items-center"
     >
-      <div className="bg-yellow-10 mt-6 md:mt-0 flex flex-col gap-4 justify-center items-center">
-        <Image
-          src={Profile}
-          alt="Vitor's picture"
-          className="rounded-full w-[250px] border-4 border-green-dark transition delay-150 hover:ease-in-out"
-          priority
-        />
+      <section id="about" className="p-8 md:min-h-[65vh] ">
+        <About />
 
-        <SocialMediaOptions />
-      </div>
-      <div className="bg-yellow-10 flex flex-col justify-center items-center">
-        <AboutContent />
-        <a
-          href="/vitor_manoel-resume.pdf"
-          target="_blank"
-          className="mb-10 underline underline-offset-2 mt-4 px-3 font-normal hover:text-green-dark duration-300"
-        >
-          /resume
-        </a>
-      </div>
-    </section>
+        <div className="flex gap-6 flex-col md:flex-row md:items-end justify-between items-start mt-10 w-full">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            className="underline underline-offset-2 mt-4 font-normal hover:text-green-dark duration-300"
+          >
+            /resume
+          </a>
+
+          <SocialMedia />
+        </div>
+      </section>
+
+      <Skills />
+    </div>
   );
 }
 
 export default about;
+
+{
+  /* <Image
+  src={Profile}
+  alt="Vitor's picture"
+  className="rounded-full w-[250px] border-4 border-green-dark transition delay-150 hover:ease-in-out"
+  priority
+/>; */
+}

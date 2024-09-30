@@ -2,7 +2,7 @@ import Title from "../ui/title.jsx";
 
 function aboutContent() {
   return (
-    <article className="w-full max-w-xl">
+    <article className="w-full">
       <Title txt="about"/>
       <p className="pt-2">
         Over the past four years, I have gained extensive{" "}
