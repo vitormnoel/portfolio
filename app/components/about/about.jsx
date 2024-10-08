@@ -7,9 +7,9 @@ function about() {
   return (
     <div
       id="about"
-      className="grid gap-10 lg:grid-cols-2 lg:h-[100vh] mt-[10vh] mb-[4vh] lg:m-auto items-center"
+      className="grid gap-10 lg:grid-cols-2 lg:h-[100vh] mt-24 mb-[4vh] lg:m-auto items-center"
     >
-      <section id="about" className="p-8 md:min-h-[65vh] ">
+      <section id="about" className="md:p-8 md:min-h-[65vh] ">
         <About />
 
         <div className="flex gap-6 flex-col md:flex-row md:items-end justify-between items-start mt-10 w-full">

@@ -3,7 +3,7 @@ import Title from "../ui/title.jsx";
 function aboutContent() {
   return (
     <article className="w-full">
-      <Title txt="about"/>
+      <Title text="about"/>
       <p className="pt-2">
         Over the past four years, I have gained extensive{" "}
         <span className="">
@@ -22,7 +22,7 @@ function aboutContent() {
       </p>
       <p className="pt-4">
         Currently, I am living in Spain, and{" "}
-        <span className="bg-yellow-100 px-1 dark:bg-green-dark dark:text-slate-900">I am available for work.</span> If
+        <span className="bg-yellow-100 dark:bg-green-dark dark:text-slate-900 cursor-pointer">I am available for work.</span> If
         you have an open position or a project you would like to discuss, feel
         free to contact me.
       </p>

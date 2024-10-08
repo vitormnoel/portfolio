@@ -111,7 +111,6 @@ function skillList() {
         }
         name="github"
       />
-
       <Item
         icon={
           <img
