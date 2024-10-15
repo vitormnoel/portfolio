@@ -10,7 +10,7 @@ function workItem({ title, description, link, ...props }) {
       </article>
 
       <a
-        href={`https://` + link}
+        href={`https://www.` + link}
         target="_blank"
         className="flex items-start gap-1 text-slate-400 dark:text-neutral-400 hover:text-green-dark duration-300 mt-2"
       >

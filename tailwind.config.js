@@ -16,7 +16,7 @@ module.exports = {
         },
         green: {
           pastel: "#C6E8C6",
-          dark: "#709B72"
+          dark: "#88B988"
         }
       },
     },
