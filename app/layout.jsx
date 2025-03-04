@@ -1,5 +1,7 @@
 import "./style/globals.css";
 
+import Script from "next/script";
+
 import Footer from "./components/footer/footer.jsx";
 import NavBar from "./components/header/navbar.jsx";
 
@@ -36,6 +38,15 @@ export default function rootLayout({ children }) {
         <NavBar />
         <main className="container mx-auto px-8 lg:w-2/3] ">{children}</main>
         <Footer />
+
+        <Script>
+          {`var sc_project=13098240; var sc_invisible=1; var
+              sc_security="3327c779"`}
+        </Script>
+        <Script
+          src="https://www.statcounter.com/counter/counter.js"
+          async
+        ></Script>
       </body>
     </html>
   );
