@@ -14,7 +14,7 @@ function contactList() {
       <ListItem
         emoji="📬"
         description="for questions"
-        link="mailto: hi@vitormanoel.com ?subject=Hi, I have a question!"
+        link="mailto: hi@vitormanoel.com ?subject=Hi, I'm <YOUR NAME>"
         color="hover:text-slate-700 bg-slate-300"
         
         title="hi@vitormanoel.com"
@@ -30,7 +30,7 @@ function contactList() {
       <ListItem
         emoji="👤"
         description="for career opportunities"
-        link="https://linkedin.com/in/vitormnoel"
+        link="https://linkedin.com/in/vitormanoel"
         color="bg-blue-linkedin text-white hover:text-blue-linkedin"
         icon={<FaLinkedin />}
         title="/vitormnoel"
