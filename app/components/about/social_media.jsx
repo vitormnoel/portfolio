@@ -7,7 +7,7 @@ import SocialMediaItem from "./social_media__item";
 const links = {
     email: "mailto: hi@vitormanoel.com",
     github: "https://github.com/vitormnoel",
-    linkedin: "https://linkedin.com/in/vitormnoel",
+    linkedin: "https://linkedin.com/in/vitormanoel",
 };
 
 
